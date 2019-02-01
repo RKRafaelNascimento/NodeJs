@@ -45,7 +45,7 @@ describe("Suite de manipulação de Herois", ()=>{
 
     })
 
-    it.only("Deve atualizar um heroi dos arquivos", async () => {
+    it("Deve atualizar um heroi dos arquivos", async () => {
         const expected = {
             ...DEFAULT_ITEM_ATUALIZAR,
             nome: "Batman",
